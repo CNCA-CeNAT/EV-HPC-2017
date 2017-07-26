@@ -1,0 +1,9 @@
+#PBS -N shear_sort
+#PBS -q phi-debug
+#PBS -l nodes=1
+#PBS -l walltime=00:15:00
+
+cd $PBS_O_WORKDIR
+
+export OMP_NUM_THREADS=64
+./shear_sort 65536
