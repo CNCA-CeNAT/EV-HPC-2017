@@ -1,4 +1,9 @@
-#include "funciones.h"
+/*
+Archivo de fuentes.
+Se ponen aca las implementaciones o asignaciones (variables o funciones)
+*/
+
+#include "funciones.h" // se incluye el respectivo archivo de encabezado
 
 
 void f(int x)
@@ -18,7 +23,7 @@ float g(float x, float y)
 
 char* h(int x, float y, char z)
 {
-    char* a = (char*)malloc(sizeof(char)*x+1);
+    char* a = (char*)malloc(sizeof(char)*x+1); // asignacion de memoria
     int i;
     
     for(i=0; i < x; i++)

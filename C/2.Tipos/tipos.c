@@ -6,25 +6,8 @@
 
 
 int main(int argc, char** argv) {
-    printf("--------------------------\nola k ase\n--------------------------\n");
-    int N = 10;
-    double p[N];
-    p[3] = 2.2;
-    
-    double d = pow(2.0, 2.0);
-    printf("%lf", d);
-    /*
-        3. Constantes, variables y tipos de datos
-        6. Arreglos y punteros
-        7. Manejo de memoria
-        
-        4. Estructuras de control
-        5. Operadores y funciones
 
-        8. Manejo de archivos
-        9. Hilos de ejecución
-        10. Bibliotecas externas
-     */
+
     ///////////////////////////////////////
     // tipos numericos
     ///////////////////////////////////////
@@ -128,14 +111,6 @@ int main(int argc, char** argv) {
     _estructura.c = '1';
     
     
-    
-    
-    
-    
-    
-    
-
-    printf("--------------------------\nbai\n--------------------------\n");
     return (0);
 }
 

@@ -2,6 +2,6 @@
 
 int main(int argc, char** argv)
 {
-    printf("no, yo soy tu padre... %d!\n");
+    printf("Obi-Wan nunca te dijo lo que le paso a tu padre... %d!\n");
     return 0;
 }
