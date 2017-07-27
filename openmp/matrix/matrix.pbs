@@ -1,0 +1,26 @@
+#PBS -N matrix
+#PBS -q phi-debug
+#PBS -l nodes=1
+#PBS -l walltime=00:15:00
+
+cd $PBS_O_WORKDIR
+
+
+export OMP_NUM_THREADS=1
+./matrix 4000 
+export OMP_NUM_THREADS=2
+./matrix 4000 
+export OMP_NUM_THREADS=4
+./matrix 4000 
+export OMP_NUM_THREADS=8
+./matrix 4000 
+export OMP_NUM_THREADS=16
+./matrix 4000 
+export OMP_NUM_THREADS=32
+./matrix 4000 
+export OMP_NUM_THREADS=64
+./matrix 4000 
+export OMP_NUM_THREADS=128
+./matrix 4000 
+export OMP_NUM_THREADS=256
+./matrix 4000 

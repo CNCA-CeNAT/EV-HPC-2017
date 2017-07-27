@@ -1,0 +1,8 @@
+#PBS -N hello_id
+#PBS -q phi-debug
+#PBS -l nodes=1
+#PBS -l walltime=00:15:00
+
+cd $PBS_O_WORKDIR
+
+./hello_id

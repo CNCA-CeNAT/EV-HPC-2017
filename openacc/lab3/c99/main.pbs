@@ -1,0 +1,11 @@
+#PBS -N OPENACC_LAB3
+#PBS -q k40
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=00:13:00
+
+cd $PBS_O_WORKDIR
+module load pgi
+module load cuda
+
+./cg
+
