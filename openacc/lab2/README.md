@@ -124,7 +124,8 @@ Add the necessary directives
 to each routine one at a time in order
 of importance. After adding the directive, recompile the code, check that the
 answers have remained the same, and note the performance difference from your
-change.
+change. (ALSO ADD THE FOLLOWING FLAGS TO THE COMPILER IN THE MAKEFILE TO ENABLE
+CUDA UNIFIED MEMORY AND SEE COMPILER OUTPUT OF ACCELERATED REGIONS)
 
     $ make
     pgc++ -fast -acc -ta=tesla:managed -Minfo=accel main.cpp -o cg
@@ -152,7 +153,7 @@ will know if this is necessary if the compiler feedback lists a "complex loop
 carried dependency."
 
 
-Step 3 - Re-Profile Application
+Step 3 - Re-Profile Application (SKIP THIS STEP)
 -------------------------------
 Once you have added the OpenACC directives to your code, you should obtain a
 new profile of the application. For this step, use the NVIDIA Visual Profiler
