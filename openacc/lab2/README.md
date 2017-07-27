@@ -51,7 +51,7 @@ Step 1 - Identify Parallelism
 In this step, use the NVPROF profiler, or your preferred performance analysis
 tool, to idetify the important routines in the application and examine the
 loops within these routines to determine whether they are candidates for
-acceleration. Run the command below to gather a CPU profile.
+acceleration. Run the command below to gather a CPU profile. (¡¡¡RUN PROFILING ON K40 QUEUE!!!)
 
     $ nvprof --cpu-profiling on --cpu-profiling-mode top-down ./cg
     Rows: 8120601, nnz: 218535025
@@ -79,7 +79,7 @@ acceleration. Run the command below to gather a CPU profile.
     
     ======== Data collected at 100Hz frequency
 
-We see from the above output that the `matvec`, `waxpy`, and `dot` routines
+(CHECK ERROR FILE FOR PROFILING OUTPUT). We see from the above output that the `matvec`, `waxpy`, and `dot` routines
 take up the majority of the runtime of this application. We will focus our
 effort on accelerating these functions.
 
