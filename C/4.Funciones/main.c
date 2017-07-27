@@ -1,3 +1,12 @@
+/*
+Escuela de veranillo en computacion de alto rendimiento.
+24-28 julio 2017
+CNCA, CeNAT.
+
+M. Sc. Ricardo Roman-Brenes, PRIS-Lab/EIE/UCR
+ricardo.roman@ucr.ac.cr
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include "funciones.h"

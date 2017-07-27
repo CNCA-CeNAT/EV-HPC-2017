@@ -1,4 +1,13 @@
 /*
+Escuela de veranillo en computacion de alto rendimiento.
+24-28 julio 2017
+CNCA, CeNAT.
+
+M. Sc. Ricardo Roman-Brenes, PRIS-Lab/EIE/UCR
+ricardo.roman@ucr.ac.cr
+*/
+
+/*
 Descomentar llamados a funciones en main para probarlas.
 */
 
