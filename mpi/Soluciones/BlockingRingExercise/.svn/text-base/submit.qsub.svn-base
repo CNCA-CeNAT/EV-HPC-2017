@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=00:05:00
+#PBS -N ring
+#PBS -e $PBS_JOBID.err
+#PBS -o $PBS_JOBID.out
+
+cd $PBS_O_WORKDIR
+
+aprun -n 32 -d 2 ./ring

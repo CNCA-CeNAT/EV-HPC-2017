@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/CS1645/!svn/ver/541/emeneses/mpi/ring
+END
+ring
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/CS1645/!svn/ver/541/emeneses/mpi/ring/ring
+END
+ring.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/CS1645/!svn/ver/541/emeneses/mpi/ring/ring.c
+END
+submit.qsub
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/CS1645/!svn/ver/541/emeneses/mpi/ring/submit.qsub
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/CS1645/!svn/ver/541/emeneses/mpi/ring/Makefile
+END
