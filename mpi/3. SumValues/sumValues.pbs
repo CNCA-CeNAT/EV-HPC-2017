@@ -1,0 +1,14 @@
+#PBS -N sumValMPI
+#PBS -q phi-n2h72
+#PBS -l nodes=1
+#PBS -l walltime=0:30:00
+cd $PBS_O_WORKDIR
+module load mpich
+./serialSum
+mpiexec -n 8 ./parallelSum
+
+
+
+
+
+
